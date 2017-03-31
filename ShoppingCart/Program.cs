@@ -12,6 +12,7 @@ namespace ShoppingCart
     {
         static void Main(string[] args)
         {
+            //Shopping cart practice
             //Initialize products
             List<Product> products = InitializeProducts();
             //Initialize Cart list
