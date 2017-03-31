@@ -71,13 +71,15 @@ namespace ShoppingCart
 
             //Console.WriteLine("Would you like to add more product to your cart. Press Y to continue or N to Checkout");
             #endregion
-            do
+            while (strYesOrNo.ToLower().Equals("y"))
             {
                 strYesOrNo = InputProductNumberLoop(cartList);
-            } while (strYesOrNo.ToLower().Equals("y"));
+            }
 
             //show shopping cart
+            Console.WriteLine("Shopping cart list:");
             ShowShoppingCart(cartList);
+
             Console.WriteLine("Thank you for shopping with us.Bye bye");
 
             Console.ReadKey();
@@ -165,15 +167,18 @@ namespace ShoppingCart
         /// <param name="cartList"></param>
         private static void ShowShoppingCart(List<Cart> cartList)
         {
+            decimal sum = 0;
             foreach (var item in cartList)
             {
-                Console.WriteLine("Shopping cart list:");
                 Console.WriteLine("Product id: " + item.IdGuid);
                 Console.WriteLine("Product name: " + item.Name);
                 Console.WriteLine("Product price: " + item.Price);
                 Console.WriteLine("Purchase quantity: " + item.Quantity);
                 Console.WriteLine("Total cost: " + item.TotalCost);
+                sum += item.TotalCost;
+                Console.WriteLine("---------------------------------");
             }
+            Console.WriteLine("Sum: "+sum);
         }
 
         /// <summary>

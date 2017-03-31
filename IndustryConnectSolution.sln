@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise Session 3", "Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{F13CB28C-0E1C-4B00-B2A6-3E328ED853F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 1 Exercise ShoppingCart", "Week 1 Exercise ShoppingCart\Week 1 Exercise ShoppingCart.csproj", "{1A64045D-7CD5-4F70-8E73-EBADBC1C53C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F13CB28C-0E1C-4B00-B2A6-3E328ED853F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13CB28C-0E1C-4B00-B2A6-3E328ED853F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13CB28C-0E1C-4B00-B2A6-3E328ED853F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A64045D-7CD5-4F70-8E73-EBADBC1C53C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A64045D-7CD5-4F70-8E73-EBADBC1C53C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A64045D-7CD5-4F70-8E73-EBADBC1C53C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A64045D-7CD5-4F70-8E73-EBADBC1C53C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

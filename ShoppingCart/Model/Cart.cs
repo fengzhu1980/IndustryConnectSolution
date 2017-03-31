@@ -10,5 +10,6 @@ namespace ShoppingCart.Model
     {
         public int Quantity { get; set; }
         public decimal TotalCost { get; set; }
+        public decimal Sum { get; set; }
     }
 }
