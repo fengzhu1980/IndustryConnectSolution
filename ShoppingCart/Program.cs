@@ -100,7 +100,7 @@ namespace ShoppingCart
             ShowProductDetailsByProduct(p);
 
             //Please enter your quantity you want to purchase
-            Console.WriteLine("Please enter your quantity you want to purchase");
+            Console.WriteLine("Please enter quantity you want to purchase");
             string strPurchase = Console.ReadLine();
 
             int numPurchase = int.Parse(strPurchase);
